@@ -1,32 +1,31 @@
 # Preferred name (Characters only)
-name: "John Smith"
+name: "Komal Jamma"
+
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+github_repo_root_url: https://github.com/Komal-Jamma/Komal_Jamma_Profile
 
-# Introduce yourself (80-120 words)
-# Suggestions: you should 
-# 1) describe your academic and work experience (please focus on transferable/job related tech and soft skills only)
-# 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
-# 3) mention what kind of role you are looking for
-# 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your 
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
-
+I graduated with a Bachelor of Engineering in Computer Science from Solapur University. I started off my career as a Web Designer in Gubbi Enterprises 6 years ago, where I worked with development and testing team to meet the client requirements. I have always been interested in Data Engineering because I enjoy analysing and visualizing data insights. I am proficient in languages such as Python and SQL and tools such as SQL Server Management System, SQL databases and Tableau. My goal is to work as a Data Engineer. I believe I can be a valuable team player with strong analytical and problem-solving skills. I am always facinating about learning new skills. 
+ 
 skills:
-  # Please include 
-  #     1)soft skills (e.g. elicitation, communicaiton, collaberation, interpersonal, etc ) 
-  #     2) business tools (such as Excel, Viso, etc.)
-  Business Skills:
-    - Donec
-    - Donec
-    - Donec
-    - fermentum
-    - Donec
-  # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
-  # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
-  Technical Skills:
+    - Analytical and Problem Solving Skill
+    - Detail Oriented
+    - Multi-tasking
+    - Ability to work independently  
+
+Business Skills:
+    - Jupyter Notebook/PyCharm
+    - Tableau
+    - Microsoft Office
+    - SQL Server Management System/ SQLite
+    - Google Cloud Platform
+ 
+Technical Skills:
     - RDBMS/SQL
-    - Data Modeling/Mapping
+    - Python
+    - Linux/Bash
+    - Java
     - Data Analytics
+    - Data Visualization
 
 # List of Jarvis projects
 # Please describe your resume from a BSA perspective (e.g. requirement elicitation, scope, stakeholder, coordination, diagrams)
@@ -49,59 +48,74 @@ jarvis_projects:
 # Please focus on transferable skills, such as soft skills and data related skills
 highlighted_projects:
     #project name
-  - name: "Web app for resturant"
+  - name: "COVID 19 Data Exploration and Tableau Visualization"
     #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
-    git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    git_url: "https://github.com/Komal-Jamma/PortFolioProjects/blob/main/Covid%20Portfolio%20Project%201.sql"
+  
+  - Created dashboard in Tableau for the analysis of covid 19 data including total cases, deaths, rate of deaths, population infected, countries with highest infection rate, and vaccination rate.
+  - Explored the details of total covid cases and deaths, date at which maximum death occurred, what percentage of
+population got infected of virus, countries with highest infection rate, percentage of people got vaccination.
+  - Used Bar chart to depict total deaths per continent, Line chart to show percentage of population got infected and Map
+chart to show percent population infected per country.
+
+ - name: "DATA CLEANING IN SQL"
+
+    git_url: https://github.com/Komal-Jamma/Data-Cleaning-in-SQL
+
+ description:
+   - For Data Cleaning project, I have collected and analysed real time data from Nashville housing dataset.
+   - Standardized Date format in SQL with Convert function.
+   - Populated missing property addresses, replaced all null value addresses with identical parcel ID.
+   - Breaking Addresses into individual columns(Address, City and State)
+   - Modified incomplete words with correct and complete word.
+   - Identified and remove duplicates using Common Table Expression
+   - Dropped unused and irrelevant columns from table using drop function.
 
 # List of professional experience
 # Please focus on transferable skills, such as soft skills and data related skills
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
+  - title: "Data Engineer"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "2023-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     # Avoid the following terms: training, learning, etc. Instead, you should focus on the work, such as worked on XYY; Wrote ABC document; Analyzed QWE project;
     description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+  -
+    title: "Web Designer"
+    company: "Gubbi Enterprises"
+    duration: "2016-2018"
+
+    description: 
+1. Designed and developed robust solutions to meet client requirements for functionality, scalability and performance working with software development and testing six team members.
+2. Prepared and modified designs for construction projects
+3. Prepared design plan and presented the website structure to the client.
+4. Collaborated with team members to complete the websites.
+5. Used most effective technologies like HTML5 and CSS3 to construct the interactive and efficient websites.
+6. Maintained and updated the company website including the layout and flow.
+7. Gathered and defined customer requirements to develop clear specifications for project plans resulting in successful and
+interactive e - commerce website.
+
 
 #List of edcuation
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
-    # optional
+  - school_name: "Solapur University"
+    duration: "2011-2014"
+    degree: "Bachelor of Engineering"
+    department: "Computer Science"
+   
     awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
+      - 
+      
+  - school_name: "S.E.S. Polytechnic"
+    duration: "2008-2011"
+    degree: "Diploma"
+    department: "Information Technology"
     awards_achievements: 
 
-#Optional section
-others:
-    #category
+
   - title: "Certificates"
-    #list of items
-    bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
-  - title: "Activities/Hobbies"
-    bullets:
-      - "Basketball player; joined xyz club"
-      - "Competitive gaming; compete for xyz"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+    
+1. IBM Data Analyst Professional Certificates. (2022)
+2. Microsoft Azure Fundamentals Professional Certificate. (2022) 
+   
